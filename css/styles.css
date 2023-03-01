@@ -197,28 +197,28 @@ body {
     cursor: pointer;
 }
 
-/* Feasture */
-.feasture-title {
+/* Feature */
+.feature-title {
     margin: 0;  
 }
 
-.feasture-list,
-.feasture-list-title,
-.feasture-list-text {
+.feature-list,
+.feature-list-title,
+.feature-list-text {
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.feasture-list .feasture-list-item + .feasture-list-item {
+.feature-list .feature-list-item + .feature-list-item {
     margin-left: 30px;
 }
 
-.feasture-list-item {
+.feature-list-item {
     width: 270px;
 }
 
-.feasture-list-box {
+.feature-list-box {
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -231,12 +231,12 @@ body {
     border-radius: 4px;
 }
 
-.feasture-list-svg {
+.feature-list-svg {
     width: 70px;
     height: 70px;
 }
 
-/* .feasture-list-item::before{
+/* .feature-list-item::before{
     display: block;
     content: "";
     width: 270px;
@@ -265,7 +265,7 @@ body {
     background-image: url(../images/astronaut\ 1\ \(1\).svg);
 } */
 
-.feasture-list-title {
+.feature-list-title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -275,7 +275,7 @@ body {
     color: var(--title-text-color);
 }
 
-.feasture-list-text {
+.feature-list-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
